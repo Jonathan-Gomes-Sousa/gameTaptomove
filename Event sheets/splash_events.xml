@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>splash_events</name>
+    <events>
+        <comment>quando iniciar o layout passa para proxima tela</comment>
+        <event-block sid="714788057541164">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="141578867142994" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="797955099547622" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-43" name="Go to next/previous layout" sid="520241851050792" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

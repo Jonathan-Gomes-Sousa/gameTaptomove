@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Tap_To_Move</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author>Jonathan gomes</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.gamesjon.taptomove</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>27900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1080</width>
+        <height>1920</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar only</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">NW.js</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="obj_logo" sid="557565864847091">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="890491486702319" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501099" original-source="E:\PROJETOS QUE VAI DAR CERTO\Ai Logo\logo.png">
+                        <collision-poly>
+                            <point x="0.0754505" y="0.147253" />
+                            <point x="0.5" y="0.0307692" />
+                            <point x="0.925676" y="0.145055" />
+                            <point x="1" y="0.498901" />
+                            <point x="0.940315" y="0.883516" />
+                            <point x="0.5" y="0.826374" />
+                            <point x="0.0608108" y="0.881319" />
+                            <point x="0.00112613" y="0.498901" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obj_chao_collision" sid="337259611182395">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="844662535682681">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="435219434422983" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obj_player" sid="568692814290083">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="448186082652570">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245028331093564" speed="6">
+                    <frame duration="1" hotspotX="0.506849" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.178082" y="0.145161" />
+                            <point x="0.753425" y="0.0645161" />
+                            <point x="0.39726" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.306818" y="0.155039" />
+                            <point x="0.920455" y="0.124031" />
+                            <point x="0.727273" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505263" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.294737" y="0.15625" />
+                            <point x="0.852632" y="0.132813" />
+                            <point x="0.652632" y="1" />
+                            <point x="0.0842105" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505882" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.235294" y="0.119048" />
+                            <point x="0.858824" y="0.111111" />
+                            <point x="0.611765" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.230769" y="0.116279" />
+                            <point x="0.846154" y="0.0697674" />
+                            <point x="0.75641" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.190476" y="0.133858" />
+                            <point x="0.880952" y="0.0551181" />
+                            <point x="0.773809" y="1" />
+                            <point x="0.0119048" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="519010042766015">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="obj_gatilho_limite" sid="486578363965244">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671871988194019" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obj_inimigo" sid="949140110058529">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="332385116010614">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289288725733613" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TXT_SCORE" sid="358256819727118">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TXT_Mensagem_inicial" sid="353949470644256">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Tilemap4" sid="622393364503712">
+            <plugin id="Tilemap" />
+            <texture original-source="E:\PROJETO GAME\ASSETS 2D\Pixel_Platformer_Tileset_Pack\Asset_03\pixel_platform_03_tileset_final.png" />
+            <tiles />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>splash_screen.xml</layout>
+        <layout>level_1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>splash_events.xml</event-sheet>
+        <event-sheet>level_1_events.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="5">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
