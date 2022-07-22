@@ -1,0 +1,32 @@
+﻿{
+	"version": 1658515268,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/obj_logo-sheet0.png",
+		"images/obj_chao_collision-sheet0.png",
+		"images/obj_player-sheet0.png",
+		"images/obj_player-sheet1.png",
+		"images/obj_gatilho_limite-sheet0.png",
+		"images/obj_inimigo-sheet0.png",
+		"images/tilemap4.png",
+		"images/tiledbackground.png",
+		"images/sprite-sheet0.png",
+		"images/sprite-sheet1.png",
+		"images/pause-sheet0.png",
+		"images/pause-sheet1.png",
+		"images/fade_to_black-sheet0.png",
+		"media/hurt.m4a",
+		"media/hurt.ogg",
+		"media/bensound-jazzyfrenchy (online-audio-converter.com).m4a",
+		"media/bensound-jazzyfrenchy (online-audio-converter.com).ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
